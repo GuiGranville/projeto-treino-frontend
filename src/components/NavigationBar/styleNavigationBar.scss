@@ -1,0 +1,27 @@
+.navigationBar-container{
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+    background-color: #462AE4;
+    height: 5rem;
+    bottom: 0;
+    display: flex;
+
+    div{
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        div{
+            height: 60%;
+            width: 50%;
+        }
+
+        label{
+            font-size: 12px;
+            color: #B1A3FD;
+        }
+    }
+}

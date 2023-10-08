@@ -1,0 +1,76 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .login-container-header{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            color: white;
+            font-size: 22px;
+        }
+
+        .login-container-header-title{
+            height: 40%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .login-container-body{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .login-container-body-inputs{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            gap: 15px;
+
+            input{
+                background-color: #D9D9D9;
+                padding-left: 7px;
+                border: none;
+                height: 3.5rem;
+                border-radius: 7px;
+            }
+        }
+        .login-container-body-esqueciSenha{
+            display: flex;
+            flex-direction: row;
+
+            p{
+                color: white;
+                font-size: 12px;
+            }
+        }
+        .login-container-body-botao{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+
+            button{
+                width: 15rem;
+                height: 3rem;
+                color: white;
+                background-color: #16486C;
+                border: none;
+                border-radius: 7px;
+            }
+        }
+    }
+}
